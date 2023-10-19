@@ -4,15 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chicken</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
       <nav>
         <a href="./index.html">Курчата</a>
         <ul>
-          <li><a href=""> Про нас</a></li>
-          <li><a href="">Продукція</a></li>
-          <li><a href="">Ціни</a></li>
+          <li><a href="#about_us"> Про нас</a></li>
+          <li><a href="#products">Продукція</a></li>
+          <li><a href="#price">Ціни</a></li>
         </ul>
       </nav>
       <address>
@@ -24,8 +37,9 @@
         <h1>Курчата бройлерів.Опт та роздріб</h1>
         <h2>Курчат купуй у нас-заощаджуй гроші й час.</h2>
       </section>
+
       <section>
-        <h3>Про нас.</h3>
+        <h3 id="about_us">Про нас.</h3>
         <p>
           Ми виробництво з п'ятерічним досвідом роботи.Працюемо тільки з
           перевіриними та надійними постачальниками такими як: "&#8482;Наша
@@ -34,15 +48,30 @@
         </p>
         <ul>
           <li>
-            <img src="" alt="" />
+            <img
+              src="./images/photo_ceh.jpg"
+              width="300"
+              height="300"
+              alt="Цех"
+            />
             <p>Чистий,просторий цех.</p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img
+              src="./images/photo_people.jpg"
+              width="300"
+              height="300"
+              alt="працівники у спец-одягу"
+            />
             <p>Уважно слідкуемо за дотриманням санітарних норм.</p>
           </li>
           <li>
-            <img src="" alt="" />
+            <img
+              src="./images/photo_camera.jpg"
+              width="300"
+              height="300"
+              alt="Камера для збурігання продукції"
+            />
             <p>
               Правилье зберігання у камерах для охолодженої продукції та шокової
               заморозки.
@@ -50,8 +79,9 @@
           </li>
         </ul>
       </section>
+
       <section>
-        <h3>
+        <h3 id="products">
           Ми пропонуемо охолоджене та заморожене м'со птиці оптом та роздріб.
         </h3>
         <p>Продукція</p>
@@ -66,39 +96,46 @@
           <li>Шкіра кур.бройлерів</li>
           <li>Інші позицшї під замовлення</li>
         </ul>
-        </section>
+      </section>
+
       <section>
-<ul><li>
-  <img src="" alt="">
-  <p>Опт від 100 кг.</p>
-</li>
-    <li>
-      <img src="" alt="">
-      <p>Роздріб від 5 кг.</p>
-    </li>
-    <li>
-      <img src="" alt="">
-      <p> Є можливість доставки</p>
-</ul>
+        <ul>
+          <li>
+            <p>Опт від 100 кг.</p>
+          </li>
+          <li>
+            <p>Роздріб від 5 кг.</p>
+          </li>
+          <li>
+            <p>Є можливість доставки</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
-      <p>Ми раді живому спілкуванню тому ціни та будьякі інші питання уточнюйте за номером або зручним для вас спобом.</p>
+      <p id="price">
+        Ми раді живому спілкуванню тому ціни та будьякі інші питання уточнюйте
+        за номером або зручним для вас спобом.
+      </p>
       <address>
         <a href="tel:+380631531521">063 153 152 1</a>
-      <ul>
-        <li>
-          <a href="viber://chat?number=%2B380507796825">
-           <svg width="24" height="24"><use href="./images/icons.svg#icon-viber"></use></svg>
-          </a>
-        </li>
-        <li>
-          <a href="http://t.me/">
-          <svg width="24" height="24"><use href="./images/icons.svg#icon-telegram"></use></svg>
-          </a>
-        </li>
-      </ul>
-    </address>
+        <ul>
+          <li>
+            <a href="viber://chat?number=%2B380507796825">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-viber"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="http://t.me/">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
