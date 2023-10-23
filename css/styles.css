@@ -6,7 +6,10 @@
 body {
   font-family: Montserrat, sans-serif;
   font-weight: normal;
+  font-style: normal;
   color: black;
+  max-width: 1440px;
+  margin: auto;
 }
 ul {
   list-style-type: none;
@@ -15,8 +18,8 @@ ul {
   padding-left: 0;
 }
 li {
-  style-type: none;
 }
+
 h1,
 h2,
 h3,
@@ -27,4 +30,48 @@ p {
 img {
   display: block;
   max-width: 100%;
+}
+.header {
+  height: 72px;
+  border-bottom: 1px solid var(--CORNFLOWER, #fe9a2e);
+  background: #fff;
+}
+.container {
+  padding: 0 15px;
+  display: flex;
+  max-width: 1158px;
+}
+.header-menu {
+  display: flex;
+  padding: 24px 0;
+  justify-content: center;
+  margin-right: auto;
+}
+.logo {
+  margin-right: 76px;
+  color: #fe9a2e;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 332px;
+}
+.menu-item {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address {
+  padding: 24px 0;
 }
