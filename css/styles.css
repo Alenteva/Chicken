@@ -5,10 +5,7 @@
 }
 body {
   font-family: Montserrat, sans-serif;
-  font-weight: normal;
-  font-style: normal;
   color: black;
-  max-width: 1440px;
   margin: auto;
 }
 ul {
@@ -16,8 +13,6 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-}
-li {
 }
 
 h1,
@@ -32,46 +27,122 @@ img {
   max-width: 100%;
 }
 .header {
-  height: 72px;
+  display: flex;
   border-bottom: 1px solid var(--CORNFLOWER, #fe9a2e);
-  background: #fff;
+  background-color: black;
+  height: 72px;
 }
 .container {
   padding: 0 15px;
   display: flex;
-  max-width: 1158px;
+  min-width: 1158px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-menu {
   display: flex;
-  padding: 24px 0;
-  justify-content: center;
+  align-items: center;
   margin-right: auto;
 }
 .logo {
   margin-right: 76px;
   color: #fe9a2e;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.67;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color, 250ms ease-in-out;
+}
+.logo:hover,
+.logo:focus {
+  color: #ff8000;
 }
 .menu-list {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
-  margin-right: 332px;
 }
 .menu-item {
   text-decoration: none;
-  color: black;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-shadow: #ffff 2px 2px 3px;
+  transition: color, 250ms ease-in-out;
+}
+.menu-item:hover,
+.menu-item:focus {
+  color: #ff8000;
+}
+.header-address {
+  align-items: center;
+  display: flex;
+}
+.address-item {
+  text-decoration: none;
+  color: #ffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color, 250ms ease-in-out;
 }
-.header-address {
-  padding: 24px 0;
+.address-item:hover,
+.address-item:focus {
+  color: #ff8000;
+}
+.background-title {
+  background-color: black;
+  height: 600px;
+  color: #fe9a2e;
+  background-image: url(../images/title_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 1158px;
+}
+.section-title {
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset #ff8000 -3px -3px 10px;
+  padding: 20px 0;
+}
+.title {
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  text-align: center;
+  color: #fe9a2e;
+  text-shadow: black 2px 2px 3px;
+}
+.section-about_us {
+  flex-direction: column;
+  padding: 70px 15px;
+}
+.about_us {
+  display: block;
+  margin-bottom: 40px;
+}
+.subtitle-about_us {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  margin-bottom: 8px;
+}
+.about_us-text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.advantages {
+  display: flex;
 }
