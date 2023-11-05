@@ -262,7 +262,7 @@ img {
   border-radius: 20px;
   margin-bottom: 20px;
 }
-.foote-text {
+.footer-text {
   font-size: 16px;
   line-height: 1.3;
   color: #bdbdbd;
@@ -318,14 +318,14 @@ img {
   background-color: blue;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .container {
-    min-width: 350px;
+    min-width: 320px;
     padding: 0 10px;
   }
   .logo {
-    font-size: 14px;
-    margin-right: 20px;
+    font-size: 12px;
+    margin-right: 10px;
   }
   .menu-list {
     gap: 10px;
@@ -337,7 +337,7 @@ img {
     margin-left: 5px;
   }
   .address-item {
-    font-size: 10px;
+    font-size: 9px;
   }
   .background-title {
     height: auto;
@@ -362,14 +362,15 @@ img {
     flex-wrap: wrap;
     gap: 40px;
   }
-  .foote-text {
-    font-size: 13px;
+  .footer-text {
+    font-size: 9px;
+    line-height: 1.1;
   }
   .footer-address {
     display: block;
   }
   .footer-cont {
-    font-size: 13px;
+    font-size: 9px;
     margin-right: 0;
   }
   .footer-list {
