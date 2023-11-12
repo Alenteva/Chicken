@@ -324,23 +324,21 @@ img {
     padding: 0 10px;
   }
   .logo {
-    font-size: 12px;
-    margin-right: 10px;
+    font-size: 16px;
   }
   .menu-list {
-    gap: 10px;
+    display: none;
   }
-  .menu-item {
-    font-size: 10px;
-  }
+
   .header-address {
-    margin-left: 5px;
   }
   .address-item {
-    font-size: 9px;
+    font-size: 14px;
   }
   .background-title {
-    height: auto;
+    min-width: 320px;
+    max-height: 151px;
+    background-image: url(../images/photo_chik-mob.jpg);
   }
   .section-title {
     padding-bottom: 10px;
@@ -362,6 +360,10 @@ img {
     flex-wrap: wrap;
     gap: 40px;
   }
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .footer-text {
     font-size: 9px;
     line-height: 1.1;
@@ -379,6 +381,7 @@ img {
     height: 30px;
     margin-top: 4px;
     margin-bottom: 4px;
+    margin-right: 20px;
   }
   .item-svg {
     width: 30px;
