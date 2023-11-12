@@ -329,9 +329,6 @@ img {
   .menu-list {
     display: none;
   }
-
-  .header-address {
-  }
   .address-item {
     font-size: 14px;
   }
@@ -364,7 +361,7 @@ img {
     padding-bottom: 40px;
   }
   .footer-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.1;
     margin-top: 8px;
     align-content: center;
@@ -380,12 +377,8 @@ img {
   .footer-list {
     width: 80px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 
     align-items: center;
   }
-  .item-svg {
-    width: 30px;
-    height: 30px;
-  }
-}
+ 
