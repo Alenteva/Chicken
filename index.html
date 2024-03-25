@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chicken</title>
+    <meta
+      name="keyword"
+      content="бройлер харків, курица опт харьков,куры опт и розница в харькове,мясо птицы харьков,филе купить,разделка курицы"
+    />
+    <title>Курчата</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -26,11 +30,13 @@
           <ul class="menu-list">
             <li><a class="menu-item" href="#about_us"> Про нас</a></li>
             <li><a class="menu-item" href="#products">Продукція</a></li>
-            <li><a class="menu-item" href="#price">Ціни</a></li>
+            <li>
+              <button class="menu-item open-price" type="button">Ціни</button>
+            </li>
           </ul>
         </nav>
         <address class="header-address">
-          <a class="address-item" href="tel:+380631531521">+38 063 153 152 1</a>
+          <a class="address-item" href="tel:+380663268592">+38 066 326 85 92</a>
         </address>
       </div>
     </header>
@@ -101,7 +107,8 @@
       <section>
         <div class="container products">
           <h3 class="products-title" id="products">
-            Ми пропонуемо охолоджене та заморожене м'со птиці оптом та роздріб.
+            Ми пропонуемо охолоджене та заморожене м'ясо птиці оптом та в
+            роздріб.
           </h3>
           <div class="products-menu">
             <p class="menu-title">Продукція:</p>
@@ -114,6 +121,9 @@
               <li class="products-item center">Крило кур.бр.</li>
               <li class="products-item center">Каркас кур.бр.</li>
               <li class="products-item center">Шкіра кур.бройлерів</li>
+              <li class="products-item center">М'ясо для шаурми</li>
+              <li class="products-item center">Печінка куряча</li>
+              <li class="products-item center">Обрізь філейна</li>
               <li class="products-item">Інші позиції під замовлення</li>
             </ul>
           </div>
@@ -137,24 +147,38 @@
 
     <footer>
       <div class="container footer">
-        <p class="footer-text" id="price">
-          Ми раді живому спілкуванню <br />тому
-          <span class="price">ціни</span> та будьякі інші питання<br />
-          уточнюйте за номером або<br />
-          зручним для вас спобом.
-        </p>
+        <div class="description">
+          <p class="footer-text" id="price">
+            Ми раді живому спілкуванню.Наш менеджер Олена відповість на всі ваші
+            питання.Дзвонить або зв'яжиться з нами будь яким зручним для вас
+            способом.
+          </p>
+        </div>
         <address class="footer-address">
-          <a class="footer-cont" href="tel:+380631531521">+38 063 153 152 1</a>
+          <div class="footer-contacts">
+            <a class="footer-cont" href="tel:+380663268592"
+              >Тел. +38 066 326 85 92</a
+            >
+            <a class="footer-email" href="mailto:serdegalena150385@gmail.com"
+              >Email:<span class="mail-hover">
+                serdegalena150385@gmail.com</span
+              >
+            </a>
+          </div>
           <ul class="footer-list">
             <li>
-              <a class="item-svg" href="viber://chat?number=%2B380507796825">
+              <a class="item-svg" href="viber://chat?number=%2B380663268592">
                 <svg class="svg" width="24" height="24">
                   <use href="./images/icons.svg#icon-viber"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-item">
-              <a class="item-svg teleg" href="http://t.me/">
+              <a
+                class="item-svg teleg"
+                href="http://t.me/@Lenu_say"
+                target="_blank"
+              >
                 <svg class="svg" width="24" height="24">
                   <use href="./images/icons.svg#icon-telegram"></use>
                 </svg>
@@ -164,5 +188,81 @@
         </address>
       </div>
     </footer>
+    <div class="modal-window">
+      <div class="modal-container">
+        <button class="close" type="button">
+          <svg width="9" height="9">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="price-title">ПРАЙС</p>
+        <ol class="price">
+          <li class="price-item">
+            Каркас курячій .......................... 15,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Спинка нижня .......................... 26,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Кість крила(фаланга) ............ 15,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Шкіра курача .............................. 15,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Лапи курячі .................................... 7,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Стегно зі спинкою .................. 69,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Гомілка ............................................. 66,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Стегно ............................................... 77,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Чверть ............................................... 71,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Крило куряче (евро) ............. 66,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Обрізь філейна ........................... 81,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Філе 1 категорії ......................... 135,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Філе 2 категорії ........................ 130,50 грн.кг.
+          </li>
+          <li class="price-item">
+            М'ясо без шкіри ....................... 98,00 грн.кг.
+          </li>
+          <li class="price-item">
+            М'ясо зі шкірою ........................ 95,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Крило (ломане) ........................ 28,00 грн.кг.
+          </li>
+          <li class="price-item">
+            М'ясо для шаурми ................ 105,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Філе зі шкірою ......................... 125,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Печінка куряча .......................... 72,00 грн.кг.
+          </li>
+          <li class="price-item">
+            Тушка від 1,5 до 1,8 кг. ............. 71,50 грн.кг.
+          </li>
+          <li class="price-item">
+            Тушка 1 категорії ....................... 75,00 грн.кг.
+          </li>
+        </ol>
+      </div>
+    </div>
+    <script src="./price.js"></script>
   </body>
 </html>
